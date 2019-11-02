@@ -126,17 +126,28 @@ a{
 }
 
 @media only screen and (max-width: 420px){
-.img-border {
-    height: 280px;
-    width: 280px;
-	border: 10px solid rgba(0, 0, 0, 0.9);
-}
-}
+	.img-border {
+		height: 280px;
+		width: 280px;
+		border: 10px solid rgba(0, 0, 0, 0.9);
+	}
+	.img-border img{
+		border: 10px solid rgba(0, 0, 0, 0.4);
+	}
 
-@media only screen and (max-width: 420px){
-.img-border img{
-	border: 10px solid rgba(0, 0, 0, 0.4);
-}
+	.profile{
+		padding-top: 25px;
+	}
+
+	.profile h2 {
+	    font-size: 40px;
+		line-height: 55px;
+	}
+
+	.profile h4 {
+		font-size: 20px;
+	    line-height: 15px;
+	}
 }
 
 @media (min-width: 992px){
