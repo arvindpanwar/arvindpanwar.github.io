@@ -125,8 +125,22 @@ a{
 	border-radius: 50%;
 }
 
+@media only screen and (max-width: 420px){
+.img-border {
+    height: 280px;
+    width: 280px;
+	border: 10px solid rgba(0, 0, 0, 0.9);
+}
+}
 
+@media only screen and (max-width: 420px){
+.img-border img{
+	border: 10px solid rgba(0, 0, 0, 0.4);
+}
+}
 
-.adjuster col-md-12{
+@media (min-width: 992px){
+.adjuster{
 	margin-top: 100px;
+}
 }
